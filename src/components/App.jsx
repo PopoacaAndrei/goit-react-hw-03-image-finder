@@ -6,7 +6,6 @@ import React, { PureComponent } from 'react';
 import { ToastContainer } from 'react-toastify';
 
 import { AppStyled } from './App.styled';
-
 export class App extends PureComponent {
   state = {
     name: '',
