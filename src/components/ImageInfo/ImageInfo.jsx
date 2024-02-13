@@ -4,7 +4,7 @@ import React, { PureComponent } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 import { toast } from 'react-toastify';
 
-import { onSearch } from '../api/api';
+import { onSearch } from '../../api/api';
 
 class ImageInfo extends PureComponent {
   state = {

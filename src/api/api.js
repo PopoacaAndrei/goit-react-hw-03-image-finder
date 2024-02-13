@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const URL = `https://pixabay.com/api/`;
-const API_KEY = '42110770-e5d9f58a0d862bfd05efded27';
+const API_KEY = '40876649-e14b6ea7b41694cd36b83fc87';
 
 export const onSearch = (name, page) => {
   const response = axios.get(`${URL}`, {

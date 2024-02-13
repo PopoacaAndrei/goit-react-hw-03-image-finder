@@ -2,7 +2,6 @@ import PT from 'prop-types';
 import React, { PureComponent } from 'react';
 import { BiSearchAlt2 } from 'react-icons/bi';
 import { toast } from 'react-toastify';
-
 import {
   ButtonLabel,
   Header,
